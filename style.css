@@ -1,0 +1,101 @@
+img[alt="steth"]{
+    margin-left:150px;
+    height: 600px;
+}
+
+img[alt="mouse"]{
+    position:relative;
+    right:180px;
+    bottom: 40px;
+}
+
+.back{
+    position:absolute;
+    z-index: -1;
+}
+
+.navi{
+    position: relative;
+    z-index: 1;
+}
+
+body{
+    margin:20px 100px;
+}
+
+nav {
+    display: flex;
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    gap:20px;
+    margin-left: 600px; 
+    list-style: none;
+}
+
+img[alt="med"]{
+    width:10vw;
+}
+
+.home{
+    color:rgb(58, 185, 58);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content-left{
+    margin-top:50px;
+    width:500px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+p{
+    color:darkgrey;
+}
+
+.btn{
+    border-radius: 30px;
+    padding:15px 25px;
+    background-color: rgb(61, 175, 61);
+    border-color:  rgb(61, 175, 61);
+    font-size: large;
+    font-weight:bold;
+    color:white;
+}
+
+img[alt="bottomangle"]{
+    margin-left: 250px;
+}
+.content-right{
+    margin-top:80px;
+}
+img[alt="greenbox"]{
+    z-index:1;
+    margin-left:200px;
+    width:400px;
+}
+
+img[alt="yellowbox"]{
+    z-index:2;
+    position: relative;
+    margin-left:200px;
+    width:350px;
+    bottom:370px;
+    left:70px;
+}
+
+img[alt="doctor"]{
+    z-index:2;
+    position: relative;
+    margin-left:200px;
+    width:400px;
+    bottom:850px;
+}
